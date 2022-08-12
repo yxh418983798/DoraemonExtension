@@ -4,13 +4,13 @@
 //
 //  Created by alfie on 2022/8/12.
 //
+//  解决DoraemonKit添加日志奔溃问题
 
-#import <DoraemonKit/DoraemonKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <DoraemonKit/DoraemonNSLogManager.h>
 
 @interface DoraemonNSLogManager (Extension)
 
 @end
 
-NS_ASSUME_NONNULL_END
+
+

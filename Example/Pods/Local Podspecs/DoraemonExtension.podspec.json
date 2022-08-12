@@ -1,0 +1,27 @@
+{
+  "name": "DoraemonExtension",
+  "version": "0.1.0",
+  "summary": "A short description of DoraemonExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alfie/DoraemonExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alfie": "418983798@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Alfie/DoraemonExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "DoraemonKit": [
+
+    ]
+  },
+  "source_files": "DoraemonExtension/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module DoraemonExtension {
+  umbrella header "DoraemonExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
