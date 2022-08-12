@@ -27,7 +27,7 @@ static void *AFDoraemonNSLogQueueKey = &AFDoraemonNSLogQueueKey;
     static dispatch_queue_t queue;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        queue = dispatch_queue_create("com.gochat.offlineService", DISPATCH_QUEUE_SERIAL);
+        queue = dispatch_queue_create("com.doraemonExtension.nslog", DISPATCH_QUEUE_SERIAL);
         dispatch_queue_set_specific(queue, AFDoraemonNSLogQueueKey, &AFDoraemonNSLogQueueKey, NULL);
     });
     return queue;

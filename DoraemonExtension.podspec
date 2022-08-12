@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DoraemonExtension'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'DoraemonKit扩展，解决NSLog奔溃问题'
 
 # This description is used to generate tags and improve search results.
